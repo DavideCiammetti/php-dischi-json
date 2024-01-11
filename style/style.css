@@ -11,6 +11,20 @@ body{
     background-color: #1d2d3c;
     font-family: 'Song Myung', serif;
 }
+/* header */
+header{
+    height: 80px;
+    background-color: #06131f;
+}
+.logo-container{
+    width: 80px;
+}
+.logo-container img{
+    width: 100%;
+    display: block;
+}
+/* /header */
+/* main */
 main{
     padding: 20px 0;
 }

@@ -13,16 +13,28 @@
 </head>
 <body>
     <div id="app"  v-cloak>
+        <header>
+            <nav>
+                <div class="logo-container">
+                    <img src="./img/logo.png" alt="logo.img">
+                </div>
+            </nav>
+        </header>
        <main>
             <div>
                 <ul>
-                    <li v-for="dati in data" class="cards">
+                    <li v-for="(dati, i) in data" class="cards">
                         <div class="text-center color-blue width-300">
-                            <div class="img-container">
+                            <div class="img-container" @click="showInfo(i)">
                                 <img :src="dati.img" alt="img">
                             </div>
                             <div class="name-songs">
                                 <p> {{dati.name}}</p>
+                            </div>
+                            <div class="name-songs">
+                               <div v-show="dati.show">
+                                    <p>{{dati.singers}}</p>
+                               </div>
                             </div>
                         </div>
                     </li>
