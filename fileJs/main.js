@@ -4,8 +4,6 @@ createApp({
   data() {
     return {
       data: [],
-      showAll: false,
-      showData: [],
     };
   },
   methods:{

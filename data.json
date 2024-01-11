@@ -1,8 +1,8 @@
 [
-    {"img":"./img/empireState.jpg","name":"Empire State of Mind","singers":"JAY-Z, Alicia Keys","show":false},
-    {"img":"./img/someday.jpg","name":"Someday","singers":"Flipsyde","show":false},
-    {"img":"./img/toxicity.jpg","name":"Toxicity","singers":"System Of A Down","show":false},
-    {"img":"./img/sum41.jpg","name":"War","singers":"Sum 41","show":false},
-    {"img":"./img/karmaPolice.jpg","name":"Karma Police","singers":"Radiohead","show":false},
-    {"img":"./img/gangstas.jpg","name":"Gangsta s Paradise","singers":"Coolio, L.V","show":false}
+    {"img":"./img/empireState.jpg","name":"Empire State of Mind","singers":"JAY-Z, Alicia Keys","show":false, "type":"cantanti"},
+    {"img":"./img/someday.jpg","name":"Someday","singers":"Flipsyde","show":false, "type":"band"},
+    {"img":"./img/toxicity.jpg","name":"Toxicity","singers":"System Of A Down","show":false, "type":"band"},
+    {"img":"./img/sum41.jpg","name":"War","singers":"Sum 41","show":false, "type":"band"},
+    {"img":"./img/karmaPolice.jpg","name":"Karma Police","singers":"Radiohead","show":false, "type":"band"},
+    {"img":"./img/gangstas.jpg","name":"Gangsta s Paradise","singers":"Coolio, L.V","show":false, "type":"cantanti"}
 ]

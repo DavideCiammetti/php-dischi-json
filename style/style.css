@@ -13,15 +13,17 @@ body{
 }
 /* header */
 header{
-    height: 80px;
+    height: 50px;
     background-color: #06131f;
 }
 .logo-container{
-    width: 80px;
+    width: 50px;
+    padding: 5px;
 }
 .logo-container img{
     width: 100%;
     display: block;
+    border-radius: 30px;
 }
 /* /header */
 /* main */
@@ -61,4 +63,7 @@ ul{
 .name-songs p{
     margin: 10px 0;
     color: white;
+}
+.height-29{
+    height: 29px;
 }
