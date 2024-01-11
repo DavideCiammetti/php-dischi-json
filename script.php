@@ -3,32 +3,32 @@
 $discs = [
 
     [
-        'img'=> 'link.img',
+        'img'=> './img/empireState.jpg',
         'name'=> 'Empire State of Mind',
         'singers'=> 'JAY-Z, Alicia Keys',
     ],
     [
-        'img'=> 'link.img',
+        'img'=> './img/someday.jpg',
         'name'=> 'Someday',
         'singers'=> 'Flipsyde',
     ],
     [
-        'img'=> 'link.img',
+        'img'=> './img/toxicity.jpg',
         'name'=> 'Toxicity',
         'singers'=> 'System Of A Down',
     ],
     [
-        'img'=> 'link.img',
+        'img'=> './img/sum41.jpg',
         'name'=> 'War',
         'singers'=> 'Sum 41',
     ],
     [
-        'img'=> 'link.img',
+        'img'=> './img/karmaPolice.jpg',
         'name'=> 'Karma Police',
         'singers'=> 'Radiohead',
     ],
     [
-        'img'=> 'link.img',
+        'img'=> './img/gangstas.jpg',
         'name'=> 'Gangsta s Paradise',
         'singers'=> 'Coolio, L.V',
     ],

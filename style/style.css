@@ -6,4 +6,45 @@
 
 [v-cloak] {
     display: none;
-  }
+}
+body{
+    background-color: #1d2d3c;
+    font-family: 'Song Myung', serif;
+}
+main{
+    padding: 20px 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* li tag */
+.cards{
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+}
+/* /li tag */
+
+/* contenitore img e paragrafo */
+.text-center{
+    text-align: center;
+}
+.color-blue{
+    background-color: #112030;
+}
+.width-300{
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 5px;
+}
+/* /contenitore img e paragrafo */
+.img-container img{
+    width: 85%;
+}
+.name-songs p{
+    margin: 10px 0;
+    color: white;
+}
