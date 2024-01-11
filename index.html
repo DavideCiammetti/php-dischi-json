@@ -7,9 +7,16 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <div id="app">
-
+    <div id="app"  v-cloak>
+       <main>
+            <div>
+                <ul>
+                    <li v-for="dati in data">{{dati}}</li>
+                </ul>
+            </div>
+       </main>
     </div>
+    
     <!-- vue js -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- /vue js -->

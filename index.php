@@ -2,10 +2,10 @@
 
 include_once __DIR__. '/script.php';
 
-// var_dump($discs);
 
-foreach($discs as $i=> $disc){
-    foreach($disc as $song){
-        echo $i.$song.'<br>';
-    }
-}
+$string = file_get_contents('data.json');
+
+$data = json_decode($string);
+
+header('Content-Type: application/json');
+echo json_encode($data);
