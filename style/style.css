@@ -11,6 +11,17 @@ body{
     background-color: #1d2d3c;
     font-family: 'Song Myung', serif;
 }
+/* hover */
+.button:hover{
+    transition: 1s;
+    border-radius: 5px;
+    background-color: rgb(18, 45, 76);
+}
+input:hover{
+    transition: 1s;
+    background-color: rgb(18, 45, 76);
+}
+/* /hover */
 /* header */
 header{
     height: 50px;
@@ -20,10 +31,70 @@ header{
     width: 50px;
     padding: 5px;
 }
+.add-song{
+    color: white;
+    margin-right: 10px;
+    vertical-align: text-bottom;
+}
+/* form  */
+.form-container{
+    position: absolute;
+    height: 213px;
+    background-color: white;
+    border-radius: 11px;
+    width: 230px;
+    text-align: center;
+}
+input::placeholder {
+    color:#41a0ff;
+  }
+.list-item{
+    position: relative;
+}
+input{
+    width: 212px;
+    padding: 6px 3px;
+    border: none;
+    outline: none;
+    border-top: 1px solid rgb(188, 188, 188);
+    border-bottom: 1px solid rgb(188, 188, 188);
+    border-radius: 8px;
+}
+.button{
+    width: 50px;
+    padding: 7px 5px;
+    border: none;
+    outline: none;
+    color: #41a0ff;
+}
+/* input */
+.input-img-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+textarea:focus, input:focus {
+    color: #ffffff;
+}
+.input-song-name{
+    margin-bottom: 20px;
+}
+.input-type-container{
+    margin-bottom: 20px;
+}
+/* /input */
+ /* nascondo label */
+ #lab {
+    display: none;
+}
+/* /form */
 .logo-container img{
     width: 100%;
     display: block;
     border-radius: 30px;
+}
+.fa-solid{
+    color: white;
+    font-size: 20px;
 }
 /* /header */
 /* main */
@@ -34,6 +105,7 @@ ul{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 /* li tag */
 .cards{
